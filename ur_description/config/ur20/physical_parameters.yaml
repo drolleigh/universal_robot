@@ -10,8 +10,11 @@ dh_parameters:
   d6: 0.11655
 
 offsets:
-  shoulder_offset: 0.176 # measured from model
-  elbow_offset: 0.040 # measured from model
+  shoulder_offset: 0.2629 # measured from model
+  elbow_offset: 0.0 # measured from model
+  wrist_1_visual_offset: -0.201
+  wrist_2_visual_offset: -0.1593
+  wrist_3_visual_offset: -0.1543
 
 inertia_parameters:
   # taken from https://www.universal-robots.com/how-tos-and-faqs/faq/ur-faq/parameters-for-calculations-of-kinematics-and-dynamics-45257/

@@ -122,6 +122,10 @@
     <!-- OFFSETS -->
     <xacro:property name="shoulder_offset" value="${sec_offsets['shoulder_offset']}" scope="parent"/>
     <xacro:property name="elbow_offset" value="${sec_offsets['elbow_offset']}" scope="parent"/>
+    <xacro:property name="wrist_1_visual_offset" value="${sec_offsets['wrist_1_visual_offset']}" scope="parent"/>
+    <xacro:property name="wrist_2_visual_offset" value="${sec_offsets['wrist_2_visual_offset']}" scope="parent"/>
+    <xacro:property name="wrist_3_visual_offset" value="${sec_offsets['wrist_3_visual_offset']}" scope="parent"/>
+    
 
     <!-- INERTIA PARAMETERS -->
     <!-- mass -->
@@ -200,20 +204,20 @@
     <xacro:property name="wrist_1_visual_material_name" value="${wrist_1_mesh['visual']['material']['name']}" scope="parent"/>
     <xacro:property name="wrist_1_visual_material_color" value="${wrist_1_mesh['visual']['material']['color']}" scope="parent"/>
     <xacro:property name="wrist_1_collision_mesh" value="${wrist_1_mesh['collision']['mesh']}" scope="parent"/>
-    <xacro:property name="wrist_1_visual_offset" value="${wrist_1_mesh['visual_offset']}" scope="parent"/>
+    <!-- <xacro:property name="wrist_1_visual_offset" value="${wrist_1_mesh['visual_offset']}" scope="parent"/> -->
 
     <xacro:property name="wrist_2_mesh" value="${sec_mesh_files['wrist_2']}"/>
     <xacro:property name="wrist_2_visual_mesh" value="${wrist_2_mesh['visual']['mesh']}" scope="parent"/>
     <xacro:property name="wrist_2_visual_material_name" value="${wrist_2_mesh['visual']['material']['name']}" scope="parent"/>
     <xacro:property name="wrist_2_visual_material_color" value="${wrist_2_mesh['visual']['material']['color']}" scope="parent"/>
     <xacro:property name="wrist_2_collision_mesh" value="${wrist_2_mesh['collision']['mesh']}" scope="parent"/>
-    <xacro:property name="wrist_2_visual_offset" value="${wrist_2_mesh['visual_offset']}" scope="parent"/>
+    <!-- <xacro:property name="wrist_2_visual_offset" value="${wrist_2_mesh['visual_offset']}" scope="parent"/> -->
 
     <xacro:property name="wrist_3_mesh" value="${sec_mesh_files['wrist_3']}"/>
     <xacro:property name="wrist_3_visual_mesh" value="${wrist_3_mesh['visual']['mesh']}" scope="parent"/>
     <xacro:property name="wrist_3_visual_material_name" value="${wrist_3_mesh['visual']['material']['name']}" scope="parent"/>
     <xacro:property name="wrist_3_visual_material_color" value="${wrist_3_mesh['visual']['material']['color']}" scope="parent"/>
     <xacro:property name="wrist_3_collision_mesh" value="${wrist_3_mesh['collision']['mesh']}" scope="parent"/>
-    <xacro:property name="wrist_3_visual_offset" value="${wrist_3_mesh['visual_offset']}" scope="parent"/>
+    <!-- <xacro:property name="wrist_3_visual_offset" value="${wrist_3_mesh['visual_offset']}" scope="parent"/> -->
   </xacro:macro>
 </robot>
