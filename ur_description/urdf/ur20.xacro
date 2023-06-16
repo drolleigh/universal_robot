@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro" name="ur20_robot">
   <!--
-    This is a convenience top-level xacro which loads the macro for the UR16e
+    This is a convenience top-level xacro which loads the macro for the UR20
     which defines the default values for the various "parameters files"
     parameters for a UR16e.
 
